@@ -35,55 +35,14 @@ a {text-decoration:none;}
 .btn:hover,.yanshibtn:hover {background:none repeat scroll 0 0 #9B59B6;border:0 none;border-radius:2px;color:#FFFFFF!important;cursor:pointer;font-family:"Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif;font-size:14px;padding:8px 10%;}
 </style>
 </head>
-<!--<script>
-{
 
-var name=prompt("请输入您的名字","小姐姐你好！")
 
-if (name!=null && name!="")
-
-{
-
-document.write =prompt("hello：" ,"你好，" + name + "！今天也要加油鸭！")
-
-}
-
-}
-</script>  -->
-<script>
-	window.onload = function(){
-    // 开始时间
-    var start = new Date("2019/7/5 11:30:00").getTime();
-    setInterval(function(){
-        // 现在
-        var now = new Date().getTime();
-        // 运行总时间
-        var run = now -  start;
-        // 总秒
-        var sumSeconds = parseInt(run / 1000);
-        // 天数
-        var d = parseInt(sumSeconds / 86400);
-        // 小时
-        var h = parseInt(sumSeconds % 86400 / 3600);
-        // 分钟
-        var min = size(parseInt(sumSeconds / 60 % 60));
-        // 秒
-        var m = size(parseInt(sumSeconds % 60));
-        // 插入
-        document.querySelector('#runtime').innerHTML = "本次升级已耗时: " + d + "天 " + h + "小时 " + min + "分" + m + "秒";
-    }, 1000)
-    // 小于10的数，前边增加一个0
-    function size(d){
-        return d < 10 ? '0' + d : d;
-    }
-}
-</script>
 <body>
 <div id='container'>
 	<div id='hero-img'>
 	</div>
 	<div id='profile-img'>
-		<img src='https://a-oss.zmki.cn/2019/190625-5d11f98fadd25.jpg'/>
+		<img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576758903931&di=2b353d103d2c86bbf1e4fbba48c0b997&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2018-07-07%2F5b408cfc32789.jpg'/>
 	</div>
 	<div id='content'>
 		<h1 align="center">崇尚技术-分享价值！</h1><br>
